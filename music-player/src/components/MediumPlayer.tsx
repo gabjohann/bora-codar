@@ -1,6 +1,7 @@
 import alubumImage from '../assets/albumImage.png';
-import styles from './MediumPlayer.module.css';
+import { Timer } from './Timer';
 import { Tracker } from './Tracker';
+import styles from './MediumPlayer.module.css';
 
 export function MediumPlayer() {
   return (
@@ -15,13 +16,7 @@ export function MediumPlayer() {
 
       <Tracker />
 
-      <div className={styles.trackTime}>
-        <div className={styles.track} />
-        <div className={styles.time}>
-          <div>3:20</div>
-          <div>0:12</div>
-        </div>
-      </div>
+      <Timer />
     </div>
   );
 }
