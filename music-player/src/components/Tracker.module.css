@@ -1,0 +1,7 @@
+.controlPlayer {
+  display: flex;
+  align-items: center;
+  gap: 3.15rem;
+
+  margin-bottom: 1.8rem;
+}

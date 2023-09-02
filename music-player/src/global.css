@@ -1,0 +1,26 @@
+:root {
+  --purple-100: #e1e1e6;
+  --purple-500: #2a2141;
+  --purple-800: #0f0d13;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--purple-800);
+  color: var(--purple-100);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
